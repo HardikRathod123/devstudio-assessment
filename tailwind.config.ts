@@ -17,6 +17,7 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: "hsl(var(--primary))",
+        secondary: "hsl(var(--secondary))",
         border: "hsl(var(--border))",
         accent: "hsl(var(--accent))",
       },
