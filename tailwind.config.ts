@@ -18,7 +18,7 @@ export default {
         foreground: "hsl(var(--foreground))",
         primary: "hsl(var(--primary))",
         secondary: "hsl(var(--secondary))",
-        border: "hsl(var(--border))",
+        border: "hsl(var(--border))/10",
         accent: "hsl(var(--accent))",
       },
       borderRadius: {
