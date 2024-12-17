@@ -1,13 +1,9 @@
-import { Button } from "@/components/Button";
+import { Header } from "@/sections/header";
 
 export default function Home() {
   return (
-    <div className="">
-      <div className="container">
-        Hello
-        <Button>Primary</Button>
-        <Button variant="secondary">Secondary</Button>
-      </div>
+    <div className="container">
+      <Header />
     </div>
   );
 }

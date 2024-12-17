@@ -5,18 +5,20 @@ export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/sections/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
         fontFamily:{
-            sans: ["DM Sans", ...fontFamily.sans],
+            sans: ["var(--font-dm-sans)", ...fontFamily.sans],
         },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: "hsl(var(--primary))",
         border: "hsl(var(--border))",
+        accent: "hsl(var(--accent))",
       },
       borderRadius: {
         lg: `var(--radius)`,
