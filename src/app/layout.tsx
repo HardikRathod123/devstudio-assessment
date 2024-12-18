@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Barlow_Semi_Condensed, DM_Sans, Inter } from "next/font/google";
+import { DM_Sans, Inter } from "next/font/google";
 import "./globals.css";
 
 const getDmSans = DM_Sans({
