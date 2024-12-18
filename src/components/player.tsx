@@ -5,7 +5,7 @@ export const Player = () => {
   return (
     <section>
       <div className="container py-5">
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center justify-center gap-4">
           <Button variant={"secondary"}>
             <FiRefreshCw className="size-2.5" />
             <span className="text-xs">Refresh All</span>
