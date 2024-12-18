@@ -18,14 +18,23 @@ export default {
         foreground: "hsl(var(--foreground))",
         primary: "hsl(var(--primary))",
         secondary: "hsl(var(--secondary))",
-        border: "hsl(var(--border))/10",
+        border: "hsl(var(--border))",
         accent: "hsl(var(--accent))",
+        muted: "hsl(var(--muted))",
+        destructive: "hsl(var(--destructive))"
       },
       borderRadius: {
         lg: `var(--radius)`,
         md: `calc(var(--radius) - 2px)`,
         sm: "calc(var(--radius) - 4px)",
       },
+      container: {
+        center: true,
+        padding: {
+            DEFAULT: "0.75rem",
+            lg: "1.5rem",
+        },
+    },
     },
   },
   plugins: [],

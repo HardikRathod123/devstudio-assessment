@@ -32,7 +32,9 @@ export const Tabs = ({
               onClick={() => setActiveTab(value)}
               className={cn(
                 "px-10 py-1 text-center",
-                activeTab === value ? "rounded-lg border border-primary" : "",
+                activeTab === value
+                  ? "rounded-lg border border-primary shadow-lg"
+                  : "",
               )}
             >
               <span
