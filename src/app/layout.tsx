@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Barlow_Semi_Condensed, DM_Sans } from "next/font/google";
+import { Barlow_Semi_Condensed, DM_Sans, Inter } from "next/font/google";
 import "./globals.css";
 
 const getDmSans = DM_Sans({
@@ -7,11 +7,10 @@ const getDmSans = DM_Sans({
   subsets: ["latin"],
 });
 
-const barlowSemiCondensed = Barlow_Semi_Condensed({
+const inter = Inter({
   subsets: ["latin"],
-  display: "swap",
-  variable: "--font-barlow-semi-condensed",
-  weight: ["400", "500", "600"],
+  // You can add variable support if needed
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -27,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${getDmSans.variable} ${barlowSemiCondensed.variable} bg-background font-sans text-foreground antialiased`}
+        className={`${getDmSans.variable} ${inter.variable} bg-background font-sans text-foreground antialiased`}
       >
         {children}
       </body>
