@@ -12,6 +12,7 @@ export default {
     extend: {
         fontFamily:{
             sans: ["var(--font-dm-sans)", ...fontFamily.sans],
+            special: ["var(--font-barlow-semi-condensed)", ...fontFamily.sans],
         },
       colors: {
         background: "hsl(var(--background))",
